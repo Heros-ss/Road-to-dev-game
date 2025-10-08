@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://cubdn1u6juhfb"]
+
+[ext_resource type="Texture2D" uid="uid://bddo3sq4btkps" path="res://corazon vacio.png" id="1_kjigd"]
+[ext_resource type="Texture2D" uid="uid://d01a4y6llif6y" path="res://corazon lleno.png" id="2_mbfw5"]
+[ext_resource type="Script" uid="uid://bbrn3rugox2iy" path="res://barra de vida.gd" id="3_bnpql"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="bara de vida" type="TextureProgressBar" parent="."]
+offset_left = -4419.0
+offset_top = -2744.0
+offset_right = -319.0
+offset_bottom = 1356.0
+rotation = -0.00628344
+max_value = 150.0
+value = 150.0
+texture_under = ExtResource("1_kjigd")
+texture_progress = ExtResource("2_mbfw5")
+script = ExtResource("3_bnpql")
